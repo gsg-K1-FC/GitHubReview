@@ -2,3 +2,40 @@
   padding: 0;
   margin: 0;
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  width: 25%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: #696969;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.icons-container {
+  width: 5%;
+}
+
+.icons {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  color: grey;
+}
