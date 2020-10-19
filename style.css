@@ -39,3 +39,7 @@ nav ul {
   justify-content: space-between;
   color: grey;
 }
+
+.categories {
+  margin-top: 100px;
+}
